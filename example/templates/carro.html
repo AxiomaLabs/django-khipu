@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Carro Khipu</h1>
+    <p>
+        <h2>Bancos Khipu</h2>
+        <p>Bancos que Tiene Khipu y que podrian usarse para pagar.</p>
+        {{banks_khipu}}
+    </p>
+
+    <p>
+        <h2>URL variables pago Khipu</h2>
+        <p>Se pueden usar el dict y poder userase via API</p>
+        {{url_carro_khipu}}
+    </p>
+
+    <p>
+        <h2>Form pago Khipu</h2>
+        Se pueden usar un formulario ya pre-hecho de Django.
+        {{form_payment_khipu.render}}
+    </p>
+{% endblock %}

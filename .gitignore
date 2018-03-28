@@ -1,0 +1,13 @@
+# so #
+.DS_Store
+
+# extensiones #
+*.log
+*.pyc
+.venv
+
+# proyecto #
+django_khipu.egg-info/
+dist/
+build/
+example/db.sqlite3
